@@ -1,0 +1,28 @@
+{
+  "name": "pactum-tests",
+  "version": "1.0.0",
+  "description": "API Tests using Pactum",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zac11/pactum-tests.git"
+  },
+  "keywords": [
+    "pactum",
+    "api-tests"
+  ],
+  "author": "Rahul Yadav",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zac11/pactum-tests/issues"
+  },
+  "homepage": "https://github.com/zac11/pactum-tests#readme",
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "pactum": "^3.3.2",
+    "pactum-json-reporter": "^1.0.2"
+  }
+}

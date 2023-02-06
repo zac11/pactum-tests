@@ -1,0 +1,74 @@
+{
+  "tests": [],
+  "steps": [],
+  "specs": [
+    {
+      "id": "f3sxb",
+      "request": {
+        "url": "https://reqres.in/api/users?page=2",
+        "method": "GET",
+        "path": "/api/users"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 146
+      },
+      "recorded": {}
+    },
+    {
+      "id": "4seaq",
+      "request": {
+        "url": "http://httpbin.org/status/200",
+        "method": "GET",
+        "path": "/status/200"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 659
+      },
+      "recorded": {}
+    },
+    {
+      "id": "yjh4y",
+      "request": {
+        "url": "https://reqres.in/api/users/2",
+        "method": "GET",
+        "path": "/api/users/2"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 42
+      },
+      "recorded": {}
+    },
+    {
+      "id": "cqxc4",
+      "request": {
+        "url": "https://reqres.in/api/users/1",
+        "method": "GET",
+        "path": "/api/users/1"
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 38
+      },
+      "recorded": {}
+    },
+    {
+      "id": "0c1jj",
+      "request": {
+        "url": "http://jsonplaceholder.typicode.com/posts/1",
+        "method": "GET",
+        "path": "/posts/{id}",
+        "pathParams": {
+          "id": "1"
+        }
+      },
+      "response": {
+        "statusCode": 200,
+        "responseTime": 79
+      },
+      "recorded": {}
+    }
+  ]
+}
